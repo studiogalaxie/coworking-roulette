@@ -1,0 +1,101 @@
+{
+  "coworkings":[{
+      "org":"Ecoworking",
+      "address":"27 rue Romarin",
+      "zipcode":"69001",
+      "city": "Lyon",
+      "website": "https://www.ecoworking.fr",
+      "tel": "",
+      "email": "contact@ecoworking.fr"
+  },
+  {
+      "org":"L'Atelier des médias",
+      "address":"9 Quai André Lassagne",
+      "zipcode":"69001",
+      "city": "Lyon",
+      "website": "http://www.atelier-medias.org",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"Comptoir Etic",
+      "address":"10 Avenue des Canuts",
+      "zipcode":"69120",
+      "city": "Vaulx-en-Velin",
+      "website": "http://etic.co",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"La Cordée - Charpennes",
+      "address":"27 Rue Henri Rolland",
+      "zipcode":"69100",
+      "city":"Villeurbanne",
+      "website": "http://www.la-cordee.net",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"Locaux Motiv'",
+      "address":"10 bis Rue Jangot",
+      "zipcode":"69007",
+      "city": "Lyon",
+      "website": "http://locauxmotiv.fr",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"Webup space",
+      "address":"52 Rue du Colombier",
+      "zipcode":"69007",
+      "city": "Lyon",
+      "website": "http://www.webup.space",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"BoostinLyon",
+      "address":"11 Place Bellecour",
+      "zipcode":"69002",
+      "city": "Lyon",
+      "website": "http://boostinlyon.fr/",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"CCO",
+      "address":"39 Rue Georges Courteline",
+      "zipcode":"69100",
+      "city": "Villeurbanne",
+      "website": "http://www.cco-villeurbanne.org",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"Melchior coworking",
+      "address":"275 Rue de l'Église",
+      "zipcode":"69390",
+      "city": "Charly",
+      "website": "http://www.melchiorcoworking.fr",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"La tour du web",
+      "address":"4 Rue du Professeur Charles Appleton",
+      "zipcode":"69007",
+      "city": "Lyon",
+      "website": "http://www.latourduweb.com",
+      "tel": "",
+      "email": ""
+  },
+  {
+      "org":"Mix coworking",
+      "address":"4 Avenue Joannes Hubert",
+      "zipcode":"69160",
+      "city": "Tassin-la-Demi-Lune",
+      "website": "http://mix-coworking.fr",
+      "tel": "",
+      "email": ""
+  }]
+}

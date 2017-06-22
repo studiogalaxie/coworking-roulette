@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+@import "bower_components/fontawesome/scss/font-awesome.scss";
+// endbower
+
+// colors
+$blue: #046380;
+$darkblue: #002F2F;
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+html, body {
+    width: 100%; height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Didact Gothic', Arial, Helvetica, sans-serif;
+    background: #FFF;
+    background: linear-gradient(#FFF, #DDD);
+}
+a, a:link, a:visited {
+    color: #046380;
+}
+
+header {
+    margin: 0; padding: 1rem 0;
+    text-align: center;
+    border-bottom: .05rem dotted $blue;
+    .title {
+        margin: 0 0 0.5rem 0;
+        font-size: 2.6rem;
+        color: $blue;
+    }
+    .baseline {
+        margin: 0;
+        font-size: 1.4rem;
+        color: $darkblue;
+    }
+}
+
+main {
+    padding: 1rem 0;
+    .coworking {
+        width: 100%; height: auto;
+        margin: 0; padding: 0;
+        background: white;
+        border-radius: 3px;
+        box-shadow: 0 0 2px rgba(0,0,0,0.1);
+        transition: margin 0.5s;
+        &.open {
+            margin: 0 0 1rem 0;
+        }
+        > .org {
+            display: none;
+            margin: 0;
+            font-size: 26px;
+            line-height: 36px;
+            text-align: center;
+            color: white;
+            background: $blue;
+            border-radius: 3px;
+            a {
+                display: block;
+                text-decoration: none;
+                color: white;
+                background: $blue;
+                border-radius: 3px;
+                transition: all 0.5s;
+                &:hover {
+                    background: $darkblue;
+                }
+            }
+        }
+        .detail {
+            display: none;
+            padding: 1rem;
+            .vcard {
+                .org {margin: 0;}
+                .adr {
+                    margin: 0 0 1rem 0;
+                    p {margin: 0;}
+                }
+            }
+            .gmap {
+                display: none;
+                background: #EEE;
+                border: 1px solid #DDD;
+            }
+        }
+    }
+    .launch {
+        display: none;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+footer {
+    padding: 1rem 0;
+    color: #777;
+    border-top: .05rem dotted $blue;
+}

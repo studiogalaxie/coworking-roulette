@@ -1,0 +1,12 @@
+# sublime text
+coworking-roulette.sublime-project
+coworking-roulette.sublime-workspace
+
+# ignore root
+.tmp
+bower_components
+dist
+helpers
+node_modules
+test
+test/bower_components
